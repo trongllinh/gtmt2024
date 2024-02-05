@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>21130420-BuiTrongLinh</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap">
+    <link rel="shortcut icon" href="assets/images/fav.png">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/lab1.css">
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+    <!--########################### Header Starts Here ###################### -->
+    <div class="home-screen container-fluid">
+        <div id="menu-jk" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 logo">
+                        <a href="index.html">
+                            <img class="logo-wt" src="assets/images/logo1.png" alt="">
+                            <img class="logo-gry" src="assets/images/logo1.png" alt="">
+                        </a>
+
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i
+                                class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="col-md-9 d-none d-md-block">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a class="active" href="#">Labs</a></li>
+                            <li><a href="result.html">Result</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="labs" class="about-us container-fluid">
+            <div class="container">
+                <div class="session-title row">
+                    <h2>LABS</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+                <div class="lab">
+                    <ul class="labNumber animated pulse ">
+                        <li><a class="lablinks" href="lab4.html">Lab 4</a></li>
+                        <li><a class="lablinks" href="lab5.html">Lab 5</a></li>
+                        <li><a class="lablinks" href="lab6.html">Lab 6</a></li>
+                        <li><a class="lablinks" href="lab7.html">Lab 7</a></li>
+                        <li><a class="lablinks" href="lab8.html">Lab 8</a></li>
+                    </ul>
+                </div>
+                <div class="lab1">
+                    <ul class="tabs">
+                        <li> <a href="#requiment" class="active nav-tab">Requiment</a></li>
+                        <li><a class="lablinks" href="result.html">Implement</a></li>
+                    </ul>
+                    <hr />
+
+                    <div class="animated fadeIn">
+                        <div id="requiment" class="active tab">
+
+                            <p><b>Yêu cầu:</b> <br> Có tap Requiment và tap Imlement, khi ấn vào 
+                            tap Imlement thì chuyển sang phần Result</p>
+                        </div>
+
+                        
+        </div>
+    </div>
+    <!-- footer in here -->
+    <footer class="container-fluid footer background">
+        <div class="container">
+          <div class="row footerro animated slideInUp">
+            <span class="tt">iPhone</span>
+            <p> 
+                <span><a href="index.html">HOME</a></span>
+                <span><a href="about.html">ABOUT</a></span>
+                <span><a href="resume.html">RESUME</a></span>
+                <span><a href="lab4.html">LABS</a></span>
+                <span><a href="result.html">RESULT</a></span>
+                <span><a href="contact.html">CONTACT</a></span>
+             </p>
+            <a href="https://themezy.com" target="_blank">Copyright © Smarteyeapps.com | All right reserved.</a>
+          </div>
+        </div>
+      </footer>
+
+    
+</body>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script>
+        $('.nav-tab').click(function (ev) {
+            ev.preventDefault();
+
+            var _id = $(this).attr('href')
+            $('.nav-tab, .tab').removeClass('active');
+            $(this).addClass('active');
+            $(_id).addClass('active');
+        })
+    </script>
+
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>

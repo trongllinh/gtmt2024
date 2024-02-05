@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>HCI - NLU - K46 | Welcome!</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
+        rel="stylesheet">
+
+    <link href="assets1/css/bootstrap.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/images/fav.png">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/lab2.css">
+    <link rel="stylesheet" href="assets1/css/style.css">
+    <link href="assets1/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--########################### Header Starts Here ###################### -->
+    <div class="home-screen container-fluid">
+        <div id="menu-jk" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 logo">
+                        <a href="index.html">
+                            <img class="logo-wt" src="assets/images/logo.png" alt="">
+                            <img class="logo-gry" src="assets/images/logo-gray.png" alt="">
+                        </a>
+
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i
+                                class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="col-md-9 d-none d-md-block">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a class="active" href="#">Labs</a></li>
+                            <li><a href="result.html">Result</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="labs" class="about-us container-fluid">
+            <div class="container">
+                <div class="session-title row ">
+                    <h2>LABS</h2>
+                    <div class="heading-line"></div>
+                </div>
+
+
+                <div class="lab">
+                    <ul class="labNumber">
+                        <li><a class="lablinks" href="lab1.html">Lab 1</a></li>
+                        <li><a class="active lablinks" href="#">Lab 2</a></li>
+                        <li><a class="lablinks" href="lab3.html">Lab 3</a></li>
+                        <li><a class="lablinks" href="lab4.html">Lab 4</a></li>
+                    </ul>
+                </div>
+                <div id="lab1" class="lab1">
+                    <ul class="tabs">
+                        <li> <a href="#requiment" class="active nav-tab">Requiment</a></li>
+                        <li> <a href="#scenario" class="nav-tab">User Scenario</a></li>
+                        <li> <a href="#design" class="nav-tab">Design</a></li>
+                        <li> <a href="#implement" class="nav-tab">Implement</a></li>
+                    </ul>
+                    <hr />
+                    <div class="animated fadeIn">
+                        <div id="requiment" class="active tab">
+
+                            <p><b>Yêu cầu:</b>
+                            <ul>
+                                <li> <p> (1) Tạo ra một user scenario </p></li>
+                                <li><p>(2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện Web trên công cụ
+                                    thiết
+                                    kế đã
+                                    chọn.
+                                    Sau đó tạo ra file html tương ứng cho thiết kế này.
+                                </p>
+                                </li>
+                                <li> <p>Upload lên Firebase / github: trong file html có chèn hình ảnh của user scenario ở
+                                    (1)
+                                    và đường
+                                    dẫn
+                                    của file thiết kế ở (2). </p></li>
+                            </ul>
+                        </div>
+
+                        <div id="scenario" class="tab">
+                            <div class="image">
+                                <img src="assets/images/scenario2.png" alt="">
+                            </div>
+                        </div>
+                        <div id="design" class="tab">
+                            <div id="skills" class="skills container-fluid">
+                                <div class="row">
+
+                                    <div class="col-md-6 pictureDesign leftIn">
+                                        <img src="assets/images/designOnPaper2.png" alt="">
+                                        <button class="btn btn-primary" style="margin-top: 10px;">
+                                            <a href="assets/images/design2.png" download="design-lab2-20130303.png">
+                                                <div style="color: #FFF ;"> <i class="fas fa-download"></i>
+                                                    Download</div>
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <div class="col-md-6 pictureDesign rightIn">
+                                        <img src="assets/images/design2.png" alt="">
+                                        <button class="btn btn-primary" style="margin-top: 10px;">
+                                            <a href="assets/images/design2.png" download="design-lab2-20130303.png">
+                                                <div style="color: #FFF;"> <i class="fas fa-download"></i>
+                                                    Download</div>
+                                            </a>
+                                        </button>
+                                        <button class="btn btn-primary" style="margin-top: 10px; margin-left: 10px;">
+                                            <a href="https://www.figma.com/file/qfbrat9nu1iobdQ6h9k4es/20130303_NguyenVanLenh?node-id=1%3A42" target="_blank">
+                                                <div style="color: #FFF;">Figma</div>
+                                            </a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="implement" class="tab">
+                            <div class="row">
+                                <div class="span9">
+                                    <div class="well well-small">
+                                        <div class="row-fluid">
+                                            <div class="span2">
+                                                <img src="assets1/img/b.jpg" alt="">
+                                            </div>
+                                            <div class="span6">
+                                                <h5>Indian Gold Bracelets</h5>
+                                                <p>
+                                                    22k gold plated bangle bracelet 8 pcs indian churi bala 2.4" all
+                                                    purpose
+                                                    a+++
+                                                </p>
+                                            </div>
+                                            <div class="span4 alignR">
+                                                <form class="form-horizontal qtyFrm">
+                                                    <h3> $250.00</h3>
+                                                    <label class="checkbox">
+                                                        <input type="checkbox"> Adds product to compair
+                                                    </label><br>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="defaultBtn"><span
+                                                                class=" icon-shopping-cart"></span>
+                                                            Add to cart</a>
+                                                        <a href="#" class="shopBtn">VIEW</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+
+                                        <hr class="soften">
+                                        <div class="row-fluid">
+                                            <div class="span2">
+                                                <img src="assets1/img/d.jpg" alt="">
+                                            </div>
+                                            <div class="span6">
+                                                <h5>Couples’ Rings</h5>
+                                                <p>
+                                                    14k Gold 2-Piece Diamond Ring Set w/ Rhodium Accent ( Engagement
+                                                    Ring &
+                                                    Man's Wedding Band
+                                                    ), w/ 0.32 Carat Brilliant Cut Diamonds, ( 6mm; 7mm ) wide
+                                                </p>
+                                            </div>
+                                            <div class="span4 alignR">
+                                                <form class="form-horizontal qtyFrm">
+                                                    <h3> $210.00</h3>
+                                                    <label class="checkbox">
+                                                        <input type="checkbox"> Adds product to compair
+                                                    </label><br>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="defaultBtn"><span
+                                                                class=" icon-shopping-cart"></span>
+                                                            Add to cart</a>
+                                                        <a href="#" class="shopBtn">VIEW</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <hr class="soften">
+                                        <div class="row-fluid">
+                                            <div class="span2">
+                                                <img src="assets1/img/e.jpg" alt="">
+                                            </div>
+                                            <div class="span6">
+                                                <h5>Gold Ring 14k</h5>
+                                                <p>
+                                                    NDSTORE 1.00 cttw IGI Certified Diamond Engagement Ring in 14K
+                                                    Gold (J-K
+                                                    Color, I1-I2
+                                                    Clarity)
+                                                </p>
+                                            </div>
+                                            <div class="span4 alignR">
+                                                <form class="form-horizontal qtyFrm">
+                                                    <h3> $140.00</h3>
+                                                    <label class="checkbox">
+                                                        <input type="checkbox"> Adds product to compair
+                                                    </label><br>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="defaultBtn"><span
+                                                                class=" icon-shopping-cart"></span>
+                                                            Add to cart</a>
+                                                        <a href="#" class="shopBtn">VIEW</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <hr class="soften">
+                                        <div class="row-fluid">
+                                            <div class="span2">
+                                                <img src="assets1/img/g.jpg" alt="">
+                                            </div>
+                                            <div class="span6">
+                                                <h5>Engagement Ring</h5>
+                                                <p>
+                                                    0.73 Ct Round Cut Solitaire Diamond Engagement Ring 14K Yellow
+                                                    Gold Size
+                                                    5 6 7
+                                                </p>
+                                            </div>
+                                            <div class="span4 alignR">
+                                                <form class="form-horizontal qtyFrm">
+                                                    <h3> $89.00</h3>
+                                                    <label class="checkbox">
+                                                        <input type="checkbox"> Adds product to compair
+                                                    </label><br>
+                                                    <div class="btn-group">
+                                                        <a href="#" class="defaultBtn"><span
+                                                                class=" icon-shopping-cart"></span>
+                                                            Add to cart</a>
+                                                        <a href="#" class="shopBtn">VIEW</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script>
+    $('.nav-tab').click(function (ev) {
+        ev.preventDefault();
+
+        var _id = $(this).attr('href')
+        $('.nav-tab, .tab').removeClass('active');
+        $(this).addClass('active');
+        $(_id).addClass('active');
+    })
+</script>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="assets/js/script.js"></script>
+<!-- <script src="assets1/js/jquery.js"></script>
+<script src="assets1/js/bootstrap.min.js"></script>
+<script src="assets1/js/jquery.easing-1.3.min.js"></script>
+<script src="assets1/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script src="assets1/js/shop.js"></script> -->
+
+</html>
